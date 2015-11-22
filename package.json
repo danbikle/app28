@@ -1,0 +1,24 @@
+{
+  "name": "app28",
+  "version": "1.0.0",
+  "description": "Demo by Dan",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'hello world' && exit",
+    "start": "node server.js"
+  },
+  "author": "Dan",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danbikle/app28.git"
+  },
+  "engines": {
+    "node": "5.0.0"
+  }
+}
