@@ -51,6 +51,8 @@ ssh -YA ann@localhost
 I installed Node.js:
 ```
 cd ~ann
+rm -f  node-v5.0.0-linux-x64.tar.gz
+rm -rf node-v5.0.0-linux-x64
 wget https://nodejs.org/dist/v5.0.0/node-v5.0.0-linux-x64.tar.gz
 tar zxf node-v5.0.0-linux-x64.tar.gz
 rm -rf node
