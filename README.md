@@ -85,7 +85,7 @@ I continued by following these shell commands:
 
 ```
 cd ~ann
-rm -f  heroku-client
+rm -rf heroku-client
 rm -rf heroku-client.tgz
 wget https://s3.amazonaws.com/assets.heroku.com/heroku-client/heroku-client.tgz
 tar zxf heroku-client.tgz
