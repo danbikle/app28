@@ -106,8 +106,6 @@ I used heroku-client to create a blank app named app28 at herokuapp.com
 ```
 cd ~ann/app28
 ~ann/heroku-client/bin/heroku create app28
-~ann/heroku-client/bin/heroku buildpacks:clear
-~ann/heroku-client/bin/heroku buildpacks:add heroku/nodejs
 ``` 
 I git-pushed ~ann/app28 to heroku:
 ```
